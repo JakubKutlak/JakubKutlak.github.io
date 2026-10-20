@@ -170,13 +170,16 @@ footer {
     gap: 0.35rem;
 }
 
+.validation-badges,
 .footer-links {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 0.5rem;
+    align-items: center;
 }
 
+.validation-badges a,
 .footer-links a {
     color: #dbeafe;
     text-decoration: none;
@@ -184,9 +187,17 @@ footer {
     transition: color 0.2s ease;
 }
 
+.validation-badges a:hover,
 .footer-links a:hover {
     color: #ffffff;
     text-decoration: underline;
+}
+
+.validation-badges img {
+    display: block;
+    height: 31px;
+    width: auto;
+    border-radius: 6px;
 }
 
 .markdown {
