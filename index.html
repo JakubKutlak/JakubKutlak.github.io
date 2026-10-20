@@ -3,27 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>titulek</title>
-    <style>
-        body {
-            background-color: lightgray;
-        }
-        .container{
-    background-color: white;
-    max-width: 600px;
-    border-radius: 15px;
-    border: 2px black solid;
-    box-shadow: rgba(0, 0, 0, 0.35)
-                     0px 5px 15px;
-    margin: 100px auto;
-    padding: 5px 30px;
-}
-    </style>
+    <title>Jakub Kutlák | O mně</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Nadpis</h1>
-        <p>Malá ukázka</p>
-    </div> 
+    <header>
+        <nav>
+            <h1>Jakub Kutlák</h1>
+            <ul>
+                <li><a href="index.html" class="active">O mně</a></li>
+                <li><a href="projects.html">Projekty</a></li>
+                <li><a href="citece.html">Citace</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="card hero">
+            <div class="hero-text">
+                <p class="eyebrow">Student • Python • Web</p>
+                <h2>Ahoj, jsem Jakub</h2>
+                <p>Jsem student střední školy se zájmem o programování v Pythonu, HTML, IT bezpečnost a tvorbu webů. Toto jednoduché portfolio slouží jako přehled mých dosavadních školních i osobních projektů.</p>
+            </div>
+            <div class="hero-aside">
+                <div class="mini-stat">
+                    <span>Věnuji se</span>
+                    <strong>Pythonu a HTML</strong>
+                </div>
+                <div class="mini-stat">
+                    <span>Oblast</span>
+                    <strong>IT bezpečnost</strong>
+                </div>
+                <div class="mini-stat">
+                    <span>Také rád</span>
+                    <strong>projektuji weby</strong>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Jakub Kutlák</p>
+    </footer>
 </body>
 </html>
